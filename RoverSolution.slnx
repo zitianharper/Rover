@@ -2,6 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="Rover.Console/Rover.Console.csproj" />
+  <Project Path="Rover.Cons/Rover.Cons.csproj" />
   <Project Path="Rover.Tests/Rover.Tests.csproj" />
 </Solution>

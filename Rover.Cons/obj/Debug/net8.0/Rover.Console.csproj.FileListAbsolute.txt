@@ -1,0 +1,5 @@
+C:\Users\danci\OneDrive\Documents\northcoders\Exercise-Folders\6-Week-6\marsRover\RoverSolution\Rover.Console\obj\Debug\net8.0\Rover.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danci\OneDrive\Documents\northcoders\Exercise-Folders\6-Week-6\marsRover\RoverSolution\Rover.Console\obj\Debug\net8.0\Rover.Console.AssemblyInfoInputs.cache
+C:\Users\danci\OneDrive\Documents\northcoders\Exercise-Folders\6-Week-6\marsRover\RoverSolution\Rover.Console\obj\Debug\net8.0\Rover.Console.AssemblyInfo.cs
+C:\Users\danci\OneDrive\Documents\northcoders\Exercise-Folders\6-Week-6\marsRover\RoverSolution\Rover.Console\obj\Debug\net8.0\Rover.Console.csproj.CoreCompileInputs.cache
+C:\Users\danci\OneDrive\Documents\northcoders\Exercise-Folders\6-Week-6\marsRover\RoverSolution\Rover.Console\obj\Debug\net8.0\Rover.Console.sourcelink.json
