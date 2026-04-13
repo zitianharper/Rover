@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rover.Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588f9b32512eea23dab15f2be6b7704982dab28f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dc55b3a9a3ad164980bdb3eee471d694f35f48c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rover.Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rover.Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
