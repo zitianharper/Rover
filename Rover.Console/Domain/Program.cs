@@ -1,4 +1,6 @@
-﻿namespace Rover.Console
+﻿using System;
+
+namespace Rover.Console
 {
     internal class Program
     {
