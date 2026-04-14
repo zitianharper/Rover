@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rover.Cons.Input
 {
+
     public static class InputParser
     //parsing the inputs into instructions.
 
@@ -16,7 +17,40 @@ namespace Rover.Cons.Input
 
      */
     {
-        public static List<Domain.InstructionsEnum> InputCleaner(string input)
+        public static Domain.PlateauSize PlateauParser(string plateauInput)
+        {
+            var plateauBits = plateauInput.Split(' ');
+
+            int x = int.Parse(plateauBits[0]);
+            int y = int.Parse(plateauBits[1]);
+
+            return new Domain.PlateauSize(x, y);
+
+        }
+        public static Domain.Position PositionParser(string positionInput)
+        {
+            //Position requires 2 ints and a DirectionsEnum
+
+            //first get the ints
+            var positionBits = positionInput.Split(' ');
+            int x = int.Parse(positionBits[0]);
+            int y = int.Parse(positionBits[1]);
+
+
+            //then get the DirectionEnum
+           
+            if(Enum.TryParse<Domain.DirectionsEnum>(positionBits[2], out var cleanDirection))
+                    {
+                return new Domain.Position(x, y, cleanDirection);
+                     }
+            else
+            {
+                throw new ArgumentException("Invalid direction");
+            }
+
+
+        }
+        public static List<Domain.InstructionsEnum> InstructionParser(string input)
         {
             var result = new List<Domain.InstructionsEnum>();
             Domain.InstructionsEnum cleanInstruction;

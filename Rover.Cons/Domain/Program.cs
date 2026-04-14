@@ -8,7 +8,7 @@ namespace Rover.Cons.Domain
         static void Main(string[] args)
         {
             
-            var result = InputParser.InputCleaner("L");
+            var result = InputParser.InstructionParser("LLL");
 
             foreach (var i in result)
             {

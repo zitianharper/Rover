@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Rover.Cons.Domain
 {
-    internal class PlateauSize
+    public class PlateauSize
     {
+        public int PlateauX { get; set; }
+        public int PlateauY { get; set; }
+
+        public PlateauSize(int plateauX, int plateauY)
+        {
+            PlateauX = plateauX;
+            PlateauY = plateauY;
+        }
+
     }
 }

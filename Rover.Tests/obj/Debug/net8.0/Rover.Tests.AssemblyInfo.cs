@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rover.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a654e1210883e78605ca089de03948c379d9dcd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd74351556a28dae4a796c65d80ed1563fa4f62e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rover.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rover.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
